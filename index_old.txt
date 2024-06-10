@@ -111,7 +111,7 @@
                     <li><strong>Tools:</strong> Python, JavaScript, HTML/CSS.</li>
                     <li><strong>Methods:</strong> Expert models, knowledge bases, interactive modules.</li>
                     <li><strong>Results:</strong> Improved student performance and engagement.</li>
-                    <li><strong>Examples:</strong> <a href="https://drive.google.com/file/d/12cPZlx8fWQ6ZA5iHWW0Svqb2Fq85Kdsp/view?usp=sharing">Video Overview</a>, <a href="Figma.jpg" target="_blank">Interface Figma Example</a></li>
+                    <li><strong>Examples:</strong> <a href="https://drive.google.com/file/d/12cPZlx8fWQ6ZA5iHWW0Svqb2Fq85Kdsp/view?usp=sharing">Video Overview</a>, <a href="#">Interactive Module Example</a></li>
                 </ul>
             </div>
             <!-- Add other projects here following the same structure -->
