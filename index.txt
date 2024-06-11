@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serhii Serdiuk's Portfolio</title>
+    <!-- Подключение библиотеки Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -56,7 +58,7 @@
             padding: 20px;
             margin: 20px 0;
         }
-        .project {
+        .project, .publication, .recognition {
             margin-bottom: 20px;
         }
         footer {
@@ -80,6 +82,10 @@
         .contact-info a:hover {
             text-decoration: underline;
         }
+        .section-icon {
+            margin-right: 10px;
+            color: #002d72;
+        }
     </style>
 </head>
 <body>
@@ -90,41 +96,131 @@
         </div>
         <div class="navbar">
             <a href="#projects">Projects</a>
+            <a href="#publications">Publications</a>
+            <a href="#recognitions">Recognitions</a>
             <a href="#contact">Contact</a>
         </div>
     </header>
     <div class="container">
         <section id="about" class="content">
-            <h2>About Me</h2>
+            <h2><i class="fas fa-user section-icon"></i>About Me</h2>
             <p>
-                Welcome to my portfolio! I am Serhii Serdiuk, a professional with a diverse academic and professional background in Human-Centered Design (HCD), User Experience, Computer Simulation, and Human-Computer Interaction (HCI). I have extensive experience in both research and teaching, having worked on various projects and courses.
+                Welcome to my portfolio! I am Dr. Serhii Serdiuk, a professional with a diverse academic and professional background in Instructional design, Human Factors, Human-Centered Design, User Experience, Human-Computer Interaction. I have extensive experience in both research, teaching, creating online courses and interactive educational resources.
             </p>
         </section>
 
         <section id="projects" class="content">
-            <h2>Projects</h2>
+            <h2><i class="fas fa-project-diagram section-icon"></i>Projects</h2>
             <div class="project">
                 <h3>IST grant "Teaching Basic Chemistry to Students at Risk" at Penn State</h3>
                 <ul>
-                    <li><strong>Goal:</strong> Develop an Intelligent Tutoring System architecture to enhance learning and assessment methods for students.</li>
-                    <li><strong>My Role:</strong> Lead developer and designer.</li>
-                    <li><strong>Tools:</strong> Python, JavaScript, HTML/CSS.</li>
-                    <li><strong>Methods:</strong> Expert models, knowledge bases, interactive modules.</li>
-                    <li><strong>Results:</strong> Improved student performance and engagement.</li>
-                    <li><strong>Examples:</strong> <a href="https://drive.google.com/file/d/12cPZlx8fWQ6ZA5iHWW0Svqb2Fq85Kdsp/view?usp=sharing">Video Overview</a>, <a href="Figma.jpg" target="_blank">Interface Figma Example</a></li>
+                    <li><strong>Goal:</strong> Develop a gamified Tutoring System architecture to increase student engagement and improve student assessment in basic chemistry courses.</li>
+                    <li><strong>My Role:</strong> Co-Principal Investigator and lead game scenario designer, responsible for designing interactive and engaging learning experiences.</li>
+                    <li><strong>Tools:</strong> Unity, JavaScript, HTML/CSS, Canvas LMS, Adobe Creative Suite.</li>
+                    <li><strong>Design and Development Methods:</strong> Comprehensive quiz system (500 questions), interactive modules, gamification techniques, instructional design principles, user testing and feedback incorporation.</li>
+                    <li><strong>Results:</strong> Achieved 85% positive feedback from 370 students enrolled in Chemistry 110 and 130 at Penn State, demonstrating significant improvement in engagement and understanding of course material.</li>
+                    <li><strong>Examples:</strong> <a href="Project.pdf" target="_blank">Project Overview</a></li>
+                </ul>
+            </div> <!-- Закрывающий тег для project -->
+
+            <div class="project"> <!-- Открывающий тег для нового project -->
+                <h3>IST grant "Teaching Basic Chemistry to Students at Risk" at National University "Zaporizhzhia Polytechnic"</h3>
+                <ul>
+                    <li><strong>Goal:</strong> Develop an Intelligent Tutoring System architecture to enhance learning and assessment methods for students at risk in basic chemistry.</li>
+                    <li><strong>My Role:</strong> Lead developer and designer, responsible for the overall project vision and execution.</li>
+                    <li><strong>Tools:</strong> JavaScript, HTML/CSS, Figma, SWI-Prolog, Moodle, Microsoft Office.</li>
+                    <li><strong>Design and Development Methods:</strong> Intelligent system architecture, knowledge bases, interactive modules, UI/UX design, instructional design principles, formative and summative assessments.</li>
+                    <li><strong>Results:</strong> Improved student performance and engagement, with an 88% course completion rate among participating students. Positive feedback from both students and faculty on the system's effectiveness.</li>
+                    <li><strong>Examples:</strong> <a href="https://drive.google.com/file/d/12cPZlx8fWQ6ZA5iHWW0Svqb2Fq85Kdsp/view?usp=sharing">Video Overview</a>, <a href="figma_example.html" target="_blank">Tutoring System Interface Figma Example</a></li>
+                </ul>
+            </div> <!-- Закрывающий тег для project -->
+
+            <div class="project"> <!-- Открывающий тег для нового project -->
+                <h3>IST 197G: Technical Vocabulary for Information Sciences and Technology (new course)</h3>
+                <ul>
+                    <li><strong>Goal:</strong> Develop a course to improve students' understanding of technical vocabulary and acquire the knowledge needed to communicate effectively with colleagues, clients, and other information science and technology professionals.</li>
+                    <li><strong>My Role:</strong> Co-developer.</li>
+                    <li><strong>Tools:</strong> Canvas LMS, Microsoft Office.</li>
+                    <li><strong>Design and Development Methods:</strong> Instructional design principles, needs analysis, curriculum mapping, content sequencing, instructional strategies.</li>
+                    <li><strong>Anticipated Impact:</strong> We expect that completing this course will help students improve their communication skills and effectively apply technical vocabulary in their future careers in the field of information science and technology.</li>
+                    <li><strong>Examples:</strong> <a href="https://ist.psu.edu/courses/ist197-vocab-fa24">Link to course</a></li>
+                </ul>
+            </div> <!-- Закрывающий тег для project -->
+
+            <div class="project"> <!-- Открывающий тег для нового project -->
+                <h3>IST 402D: Design Patterns for Simulations and HCI</h3>
+                <ul>
+                    <li><strong>Goal:</strong> Develop a course to improve students' understanding of design patterns in simulations and human-computer interaction to enhance their ability to create effective and efficient designs.</li>
+                    <li><strong>My Role:</strong> Co-developer, Instructor</li>
+                    <li><strong>Tools:</strong> Simulation systems (GPSS, SIMC, AnyLogic), Canvas LMS, Microsoft Office, Adobe Creative Suite</li>
+                    <li><strong>Design and Development Methods:</strong> Instructional design, multimedia presentations, hands-on labs, interactive simulations</li>
+                    <li><strong>Results:</strong> Course successfully completed by 100% of students with positive feedback. Improved students' ability to apply design patterns in their projects, demonstrated through final project evaluations.</li>
+                    <li><strong>Examples:</strong> <a href="Syllabus.pdf" target="_blank">Syllabus</a>, <a href="https://docs.google.com/presentation/d/1dF6BRUegE0BRJ40B6ox9B_QmQLRsaEf1/edit?usp=drive_link&ouid=114084755346277322518&rtpof=true&sd=true">Presentation examples</a></li>
+                </ul>
+            </div> <!-- Закрывающий тег для project -->
+
+        </section>
+
+        <section id="publications" class="content">
+            <h2><i class="fas fa-book section-icon"></i>Publications</h2>
+            <div class="publication">
+                <h3>Book 1: Title</h3>
+                <ul>
+                    <li><strong>Publisher:</strong> Publisher Name</li>
+                    <li><strong>Year:</strong> 2020</li>
+                    <li><strong>Description:</strong> Brief description of the book.</li>
+                    <li><strong>Link:</strong> <a href="link_to_book">Book Link</a></li>
                 </ul>
             </div>
-            <!-- Add other projects here following the same structure -->
+            <div class="publication">
+                <h3>Book 2: Title</h3>
+                <ul>
+                    <li><strong>Publisher:</strong> Publisher Name</li>
+                    <li><strong>Year:</strong> 2018</li>
+                    <li><strong>Description:</strong> Brief description of the book.</li>
+                    <li><strong>Link:</strong> <a href="link_to_book">Book Link</a></li>
+                </ul>
+            </div>
+            <div class="publication">
+                <h3>Book 3: Title</h3>
+                <ul>
+                    <li><strong>Publisher:</strong> Publisher Name</li>
+                    <li><strong>Year:</strong> 2016</li>
+                    <li><strong>Description:</strong> Brief description of the book.</li>
+                    <li><strong>Link:</strong> <a href="link_to_book">Book Link</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="recognitions" class="content">
+            <h2><i class="fas fa-award section-icon"></i>Recognitions</h2>
+            <div class="recognition">
+                <h3>Conference Recognition 1</h3>
+                <p>Brief description of the recognition from the conference.</p>
+            </div>
+            <div class="recognition">
+                <h3>Conference Recognition 2</h3>
+                <p>Brief description of the recognition from the conference.</p>
+            </div>
+            <div class="recognition">
+                <h3>Recognition from Local Authorities</h3>
+                <p>Brief description of the recognition from the local authorities for contributions in education.</p>
+            </div>
         </section>
 
         <section id="contact" class="content">
-            <h2>Contact</h2>
+            <h2><i class="fas fa-envelope section-icon"></i>Contact</h2>
             <ul class="contact-info">
                 <li>Email: <a href="mailto:serdjuksn@gmail.com">serdjuksn@gmail.com</a></li>
                 <li>Phone: 1-582-203-8878</li>
             </ul>
         </section>
     </div>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
     <footer>
         <p>&copy; 2024 Serhii Serdiuk. All rights reserved.</p>
     </footer>

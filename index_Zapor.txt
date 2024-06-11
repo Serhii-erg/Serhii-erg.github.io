@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serhii Serdiuk's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #002d72;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #fff 3px solid;
+            text-align: center;
+        }
+        header img {
+            width: 50px;
+            vertical-align: middle;
+        }
+        header h1 {
+            display: inline;
+            font-size: 2em;
+            vertical-align: middle;
+            margin: 0;
+        }
+        .navbar {
+            text-align: right;
+            padding: 15px 0;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            color: #ffcc00;
+        }
+        .content {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #002d72;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin: 10px 0;
+        }
+        .contact-info a {
+            color: #002d72;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="penn_state_logo2.JPG" alt="Penn State University">
+            <h1>Serhii Serdiuk</h1>
+        </div>
+        <div class="navbar">
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+    <div class="container">
+        <section id="about" class="content">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my portfolio! I am Serhii Serdiuk, a professional with a diverse academic and professional background in Human-Centered Design (HCD), User Experience, Computer Simulation, and Human-Computer Interaction (HCI). I have extensive experience in both research and teaching, having worked on various projects and courses.
+            </p>
+        </section>
+
+        <section id="projects" class="content">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>IST grant "Teaching Basic Chemistry to Students at Risk" at Penn State</h3>
+                <ul>
+                    <li><strong>Goal:</strong> Develop an Intelligent Tutoring System architecture to enhance learning and assessment methods for students.</li>
+                    <li><strong>My Role:</strong> Lead developer and designer.</li>
+                    <li><strong>Tools:</strong> Python, JavaScript, HTML/CSS.</li>
+                    <li><strong>Methods:</strong> Expert models, knowledge bases, interactive modules.</li>
+                    <li><strong>Results:</strong> Improved student performance and engagement.</li>
+                    <li><strong>Examples:</strong> <a href="https://drive.google.com/file/d/12cPZlx8fWQ6ZA5iHWW0Svqb2Fq85Kdsp/view?usp=sharing">Video Overview</a>, <a href="Figma.jpg" target="_blank">Interface Figma Example</a></li>
+                </ul>
+               
+                <h3>IST grant "Teaching Basic Chemistry to Students at Risk" at National University "Zaporizhzhia Polytechnic"</h3>
+                <ul>
+                    <li><strong>Goal:</strong> Develop an Intelligent Tutoring System architecture to enhance learning and assessment methods for students.</li>
+                    <li><strong>My Role:</strong> Lead developer and designer.</li>
+                    <li><strong>Tools:</strong> Python, JavaScript, HTML/CSS.</li>
+                    <li><strong>Methods:</strong> Expert models, knowledge bases, interactive modules.</li>
+                    <li><strong>Results:</strong> Improved student performance and engagement.</li>
+                    <li><strong>Examples:</strong> <a href="https://drive.google.com/file/d/12cPZlx8fWQ6ZA5iHWW0Svqb2Fq85Kdsp/view?usp=sharing">Video Overview</a>, <a href="Figma.jpg" target="_blank">Tutoring System Interface Figma Example</a></li>
+                </ul>
+            </div>
+            <!-- Add other projects here following the same structure -->
+        </section>
+
+        <section id="contact" class="content">
+            <h2>Contact</h2>
+            <ul class="contact-info">
+                <li>Email: <a href="mailto:serdjuksn@gmail.com">serdjuksn@gmail.com</a></li>
+                <li>Phone: 1-582-203-8878</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Serhii Serdiuk. All rights reserved.</p>
+    </footer>
+</body>
+</html>
